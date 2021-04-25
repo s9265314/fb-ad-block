@@ -48,7 +48,7 @@ https://youtu.be/rXfkSBuqbAQ
 ## reference
 w2v 字典 cna.cbow.512d.0.txt from [科技大擂台](https://fgc.stpi.narl.org.tw/activity/videoDetail/4b1141305ddf5522015de5479f4701b1)
 
-:::info
+
 ## 注意!!!
 facebook可能修改網頁元素造成報錯
-:::
+
