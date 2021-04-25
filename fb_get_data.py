@@ -5,6 +5,10 @@ import re, time, requests
 from selenium import webdriver
 import sys
 from bs4 import BeautifulSoup
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("url",type=str,help="爬取之fb粉絲團網址")
+args = parser.parse_args()
 #%%
 def FindLinks(url, n):
     Links = []
@@ -41,7 +45,7 @@ driver.get('https://zh-tw.facebook.com/')
 #Links,posts = FindLinks(url = 'https://www.facebook.com/groups/256239898478454/',n = 1000) 2074
 #Links,posts = FindLinks(url = 'https://www.facebook.com/groups/432367753627995/',n = 1000) 5674
 try:
-    Links,posts = FindLinks(url = 'https://www.facebook.com/groups/1931313210453873/',n = 1000)
+    Links,posts = FindLinks(url = args.url,n = 1000)
 except:
     print("例外結束")
 #%%
