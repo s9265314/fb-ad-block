@@ -1,7 +1,5 @@
 #%%
 import facebook
-import requests
-import json
 import pandas as pd
 import re, time, requests
 from selenium import webdriver
