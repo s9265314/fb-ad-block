@@ -43,10 +43,12 @@ ___
 ## 預期成果
 https://youtu.be/rXfkSBuqbAQ
 ---
-## 注意!!!
-facebook可能改過
-有些地方可能無法使用
+
 
 ## reference
 w2v 字典 cna.cbow.512d.0.txt from [科技大擂台](https://fgc.stpi.narl.org.tw/activity/videoDetail/4b1141305ddf5522015de5479f4701b1)
 
+:::info
+## 注意!!!
+facebook可能修改網頁元素造成報錯
+:::
