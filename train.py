@@ -1,12 +1,6 @@
 #%%
 # encoding=utf-8
-import os
-import re
-import sys
-import time
 import pandas as pd
-import PIL
-from PIL import Image
 import cv2
 from pathlib import Path
 import numpy as np
@@ -15,17 +9,15 @@ from opencc import OpenCC
 import jieba
 import tensorflow as tf
 from keras.optimizers import Adam
-from keras.preprocessing import image
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from keras.preprocessing.image import ImageDataGenerator
 import keras.utils
 from keras import backend as K
 from keras.models import Sequential,Model  #用來啟動 NN
 from keras.layers import Dense,Flatten,MaxPooling2D,Conv2D,Dropout,Permute,RepeatVector,Lambda\
-,Activation,Input,GlobalAveragePooling1D,GlobalAveragePooling2D,multiply,Multiply,Bidirectional
+,Activation,Input,multiply,Multiply
 from keras.callbacks import EarlyStopping, ModelCheckpoint
-from keras.layers import Embedding, Flatten, Dense, LSTM,CuDNNGRU,CuDNNLSTM
+from keras.layers import Embedding, LSTM,CuDNNGRU,CuDNNLSTM,Bidirectional
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_curve
 from gensim.models import KeyedVectors
