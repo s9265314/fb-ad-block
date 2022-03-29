@@ -28,22 +28,6 @@ def FindLinks(url, n):
 driver = webdriver.Chrome()
 driver.get('https://zh-tw.facebook.com/')
 #%%
-#已爬粉絲團紀錄 資料筆數
-#Links = FindLinks(url = 'https://www.facebook.com/groups/556944001110781/',n = 1000)
-#Links = FindLinks(url = 'https://www.facebook.com/groups/688953464636855/',n = 1000)
-#Links = FindLinks(url = 'https://www.facebook.com/groups/2562678580439603/',n = 1000)
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/goodwaytomakemoney/',n = 1000) 4624
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/1589367754651796/',n = 1000)   2225
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/688953464636855/',n = 1000)    1753
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/e07110711/',n = 1000)          4794
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/1043101689062715/',n = 1000)   4893
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/557196687737178/',n = 1000)    2851
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/1076475292384362/',n = 1000)   3280
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/598334243607534/',n = 2)
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/366124343804226//',n = 1000) 4534
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/wonderfulmakemoney/?ref=br_rs',n = 1000)
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/256239898478454/',n = 1000) 2074
-#Links,posts = FindLinks(url = 'https://www.facebook.com/groups/432367753627995/',n = 1000) 5674
 try:
     Links,posts = FindLinks(url = args.url,n = 1000)
 except:
